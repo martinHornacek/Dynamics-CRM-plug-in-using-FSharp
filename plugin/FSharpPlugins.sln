@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "OpportunityManagement", "Plugin\OpportunityManagement.fsproj", "{C2D1448C-D564-485D-B6A0-11F05D8C8D9F}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "OpportunityManagement.Tests", "OpportunityManagement.Tests\OpportunityManagement.Tests.fsproj", "{1E15CA5F-EA55-4057-9477-69F0D185043F}"
+EndProject
+Global
+	GlobalSection(CrmCodeGeneration) = preSolution
+		UseSSL = False
+		UseIFD = False
+		UseOnline = False
+		UseOffice365 = False
+		ServerName = win2012
+		ServerPort = 
+		HomeRealm = 
+		Domain = 
+		WindowsAuthorization = True
+		Organization = plugins
+		IncludeEntities = account,opportunity
+		IncludeNonStandard = False
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2D1448C-D564-485D-B6A0-11F05D8C8D9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2D1448C-D564-485D-B6A0-11F05D8C8D9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2D1448C-D564-485D-B6A0-11F05D8C8D9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2D1448C-D564-485D-B6A0-11F05D8C8D9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E15CA5F-EA55-4057-9477-69F0D185043F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E15CA5F-EA55-4057-9477-69F0D185043F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E15CA5F-EA55-4057-9477-69F0D185043F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E15CA5F-EA55-4057-9477-69F0D185043F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5DA5C8D0-8C7C-4CF8-B0CF-2ACB64DF6C85}
+	EndGlobalSection
+EndGlobal
